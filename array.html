@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+            height: 585px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="butterfly"></h1>
+    <img src='' alt="1st image" id="img1">
+    <h1 id="landscape"></h1>
+    <img src='' alt="2nd image" id="img2">
+    <h1 id="lighthouse"></h1>
+    <img src='' alt="1st image" id="img3">
+    <script>
+        let arr =['Butterfly Image','images/butterfly-4848445_1280.jpg','Landscape Image','images/landscape-4843193_1280.jpg','Lighthouse Image','images/lighthouse-4846854_1280.jpg'];
+        document.getElementById('butterfly').innerHTML=arr[0];
+        document.getElementById('img1').src=arr[1];
+        document.getElementById('landscape').innerHTML=arr[2];
+        document.getElementById('img2').src=arr[3];
+        document.getElementById('lighthouse').innerHTML=arr[4];
+        document.getElementById('img3').src=arr[5];
+    </script>
+</body>
+</html>
